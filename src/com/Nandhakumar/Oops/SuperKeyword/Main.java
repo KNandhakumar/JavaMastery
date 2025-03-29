@@ -18,13 +18,14 @@ class Mami extends Nandhakumar{
         super(); // call parent class constructor
         System.out.println(name + " is also good partner and good friend to me");
         super.love(); // call parent class method
-        super.age = 23;
+        super.age = 23; // accessing parent class variables
         System.out.println("me and nk both are age is same : " + age);
     }
 }
-
+// accessing parent class variables
 // call parent class constructor immediately
 // call parent class methods
+// when you think child class not run first then add super() , so parent class run first while child class running
 public class Main {
     public static void main(String[] args) {
         Mami mamitha = new Mami("Nandhakumar");
