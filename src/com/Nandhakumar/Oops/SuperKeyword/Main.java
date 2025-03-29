@@ -1,0 +1,32 @@
+package com.Nandhakumar.Oops.SuperKeyword;
+
+class Nandhakumar{
+    int age;
+    String name = "Mami";
+    Nandhakumar(){
+        System.out.println(name + " is good partner and good friend to me");
+    }
+    // creating method for super keyword to access methods
+    void love(){
+        System.out.println("i love " + name);
+    }
+}
+
+class Mami extends Nandhakumar{
+    Mami(String name){
+        // Default super keyword
+        super(); // call parent class constructor
+        System.out.println(name + " is also good partner and good friend to me");
+        super.love(); // call parent class method
+        super.age = 23;
+        System.out.println("me and nk both are age is same : " + age);
+    }
+}
+
+// call parent class constructor immediately
+// call parent class methods
+public class Main {
+    public static void main(String[] args) {
+        Mami mamitha = new Mami("Nandhakumar");
+    }
+}
