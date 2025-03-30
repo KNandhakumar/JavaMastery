@@ -9,7 +9,7 @@ class Animal {
 }
 
 // sub class
-class Dog extends Animal{
+class Dog extends Animal1 {
     String breed;
     // override function
     void makeSound(){
@@ -21,7 +21,7 @@ class Dog extends Animal{
 }
 
 // sub class
-class Husky extends Animal {
+class Husky extends Animal1 {
     String color;
     void makeSound(){
         System.out.println("very sound barking");
