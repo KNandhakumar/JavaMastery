@@ -1,4 +1,4 @@
-# 📌 Java Mastery – DSA & OOP Concepts 🚀  
+# 📌 Java Mastery – DSA & OOP Concepts 🚀😍
 
 Welcome to **Java Mastery**, a structured repository to **master Java** from **basic to advanced** concepts. This repo contains:  
 ✅ **Data Structures & Algorithms (DSA)** solved problems  
